@@ -1,30 +1,28 @@
-/* Updated CSS */
-
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     box-sizing: border-box;
-    background-color: white;
-    color: black;
+    background-color: #eef2f3; /* Світло-сірий фон */
+    color: #333; /* Темно-сірий текст */
     line-height: 1.8;
 }
 
 h2 {
     text-align: center;
     margin: 30px auto;
-    color: black;
+    color: #34495e; /* Темно-синій колір */
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #1abc9c; /* Зеленувата лінія */
     padding-bottom: 10px;
     max-width: 80%;
 }
 
 .navbar {
-    background-color: white;
-    border-bottom: 2px solid black;
-    padding: 10px 20px;
+    background-color: #34495e; /* Темно-синій фон */
+    border-bottom: 2px solid #1abc9c; /* Зеленуватий розділювач */
+    padding: 15px 20px;
     font-size: 15px;
     text-align: center;
 }
@@ -42,7 +40,7 @@ h2 {
 }
 
 .nav-links a {
-    color: black;
+    color: #ffffff; /* Білий текст */
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
@@ -50,40 +48,40 @@ h2 {
 }
 
 .nav-links a:hover {
-    text-decoration: underline;
-    color: #555;
+    text-decoration: none;
+    color: #1abc9c; /* Зміна кольору на зелений при наведенні */
 }
 
 footer {
-    color: black;
-    padding: 10px 20px;
+    color: #ffffff;
+    padding: 15px 20px;
     text-align: center;
-    border-top: 2px solid black;
+    border-top: 2px solid #1abc9c; /* Зеленуватий розділювач */
     margin-top: 20px;
     font-size: 12px;
-    background-color: white;
+    background-color: #34495e; /* Темно-синій фон */
 }
 
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     margin-top: 10px;
 }
 
 .social-links img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin: 0 5px;
-    border: 1px solid black;
-    padding: 3px;
-    border-radius: 50%;
+    border: 2px solid #1abc9c; /* Зеленуватий контур */
+    padding: 5px;
+    border-radius: 50%; /* Круглі іконки */
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .social-links a:hover img {
-    transform: scale(1.1);
-    filter: brightness(1.2);
+    transform: scale(1.2); /* Збільшення при наведенні */
+    filter: brightness(1.3);
 }
 
 .social-links a {
@@ -92,13 +90,13 @@ footer {
 
 .article {
     margin: 20px auto;
-    padding: 20px;
-    border: 1px solid black;
+    padding: 25px;
+    border: 1px solid #1abc9c; /* Зеленуватий контур */
     max-width: 80%;
-    background-color: #f8f8f8;
+    background-color: #ffffff; /* Білий фон */
     text-align: justify;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 8px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Більше тіней */
+    border-radius: 10px; /* Згладжені краї */
 }
 
 .article h3 {
@@ -106,12 +104,14 @@ footer {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 15px;
-    border-bottom: 1px solid black;
-    padding-bottom: 5px;
+    border-bottom: 2px solid #1abc9c; /* Зеленувата лінія */
+    padding-bottom: 10px;
+    color: #34495e; /* Темно-синій текст */
 }
 
 .article p {
     margin-bottom: 15px;
+    color: #555; /* Світло-сірий текст */
 }
 
 .article p:first-line {
@@ -128,10 +128,11 @@ footer {
 
 .column {
     flex: 1;
-    min-width: 250px; 
+    min-width: 250px;
     padding: 20px;
-    border: 1px solid black;
-    background-color: #f8f8f8;
+    border: 1px solid #1abc9c; /* Зеленуватий контур */
+    background-color: #f9f9f9; /* Світло-сірий фон */
     text-align: justify;
-    border-radius: 8px; 
+    border-radius: 10px; /* Згладжені краї */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тіні */
 }
