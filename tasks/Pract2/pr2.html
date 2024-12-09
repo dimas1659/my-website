@@ -1,76 +1,108 @@
-<style>
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 0;
-        padding: 20px;
-        background: linear-gradient(120deg, #89f7fe, #66a6ff);
-        color: #333;
-    }
-    h1 {
-        text-align: center;
-        color: #ffffff;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
-    form {
-        max-width: 400px;
-        margin: auto;
-        padding: 25px 20px;
-        background-color: #ffffff;
-        border: 2px solid #66a6ff;
-        border-radius: 12px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    label {
-        display: block;
-        margin-bottom: 6px;
-        font-weight: 600;
-        color: #444;
-    }
-    input[type="text"],
-    input[type="email"],
-    input[type="password"] {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 15px;
-        border: 1px solid #ddd;
-        border-radius: 6px;
-        font-size: 14px;
-        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
-        transition: border 0.3s;
-    }
-    input[type="text"]:focus,
-    input[type="email"]:focus,
-    input[type="password"]:focus {
-        border: 1px solid #66a6ff;
-        outline: none;
-    }
-    input[type="submit"] {
-        display: block;
-        width: 100%;
-        background: linear-gradient(90deg, #66a6ff, #89f7fe);
-        color: white;
-        padding: 12px 20px;
-        font-size: 16px;
-        font-weight: bold;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: background 0.3s, transform 0.2s;
-    }
-    input[type="submit"]:hover {
-        background: linear-gradient(90deg, #89f7fe, #66a6ff);
-        transform: translateY(-2px);
-    }
-    input[type="submit"]:active {
-        transform: translateY(0);
-    }
-    fieldset {
-        border: none;
-        padding: 0;
-    }
-    legend {
-        font-size: 18px;
-        margin-bottom: 15px;
-        color: #555;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма реєстрації</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #74ebd5, #acb6e5);
+        }
+        form {
+            width: 100%;
+            max-width: 400px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus {
+            border-color: #74ebd5;
+            outline: none;
+        }
+        input[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+        fieldset {
+            border: none;
+            margin: 0;
+            padding: 0;
+        }
+        legend {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Реєстрація користувача</h1>
+    <form action="https://webhook.site/805223ad-bed2-4c69-8448-a0535d1ed7d0" method="post">
+        <fieldset>
+            <legend>Дані користувача</legend>
+            <label for="first-name">Ім'я:</label>
+            <input type="text" id="first-name" name="first-name" required>
+    
+            <label for="last-name">Прізвище:</label>
+            <input type="text" id="last-name" name="last-name" required>
+    
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+    
+            <label for="confirm-password">Підтвердження паролю:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+        </fieldset>
+        <input type="submit" value="Зареєструватися">
+    </form>
+</body>
+</html>
