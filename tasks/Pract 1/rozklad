@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Розклад на листопад 2024</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: left;
+            vertical-align: top;
+            padding: 5px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .day-cell {
+            height: 150px;
+        }
+        .empty {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Розклад на листопад 2024</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ПН</th>
+                <th>ВТ</th>
+                <th>СР</th>
+                <th>ЧТ</th>
+                <th>ПТ</th>
+                <th>СБ</th>
+                <th>НД</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Тиждень 1 -->
+            <tr>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+            </tr>
+            <!-- Тиждень 2 -->
+            <tr>
+                <td class="day-cell">
+                    9:45 МЗШ-2020 (ЛК)<br>
+                    ауд. Дистанц.<br>
+                    Звенигородський О.С.<br><br>
+                    13:30 ПРО-2017 (ПЗ)<br>
+                    ауд. Дистанц.<br>
+                    Торошанко Я.І.
+                </td>
+                <td class="day-cell">
+                    11:45 388Б-2017 (ЛК)<br>
+                    ауд. Дистанц.<br>
+                    Чачков О.Є.
+                </td>
+                <td class="day-cell">
+                    9:45 ШІ-2017 (ЛК)<br>
+                    ауд. Дистанц.<br>
+                    Кись Т.М.
+                </td>
+                <td class="day-cell">
+                    17:00 ДТМІ-2018 (ЛБ)<br>
+                    ауд. Дистанц.<br>
+                    Асєєва Л.А.
+                </td>
+                <td class="day-cell empty"></td>
+                <td class="day-cell empty"></td>
+                <td class="day-cell empty"></td>
+            </tr>
+            <!-- Тиждень 3 -->
+            <tr>
+                <td class="day-cell">
+                    9:45 МЗШ-2020 (ЛК)<br>
+                    ауд. Дистанц.<br>
+                    Звенигородський О.С.<br><br>
+                    13:30 ПРО-2017 (ПЗ)<br>
+                    ауд. Дистанц.<br>
+                    Торошанко Я.І.
+                </td>
+                <td class="day-cell">
+                    11:45 ВЕБ тех.-2016 (ЛК)<br>
+                    ауд. Дистанц.<br>
+                    Ароне А.О.
+                </td>
+                <td class="day-cell">
+                    15:15 ШІ-2017 (ПЗ)<br>
+                    ауд. Дистанц.<br>
+                    Кись Т.М.
+                </td>
+                <td class="day-cell">
+                    18:45 ДТМІ-2018 (ПЗ)<br>
+                    ауд. Дистанц.<br>
+                    Асєєва Л.А.
+                </td>
+                <td class="day-cell empty"></td>
+                <td class="day-cell empty"></td>
+                <td class="day-cell empty"></td>
+            </tr>
+            <!-- Тиждень 4 (з 18 по 24 листопада) -->
+            <tr>
+                <td class="day-cell">
+                    9:45 МЗШ-2020 (ЛК)<br>
+                    ауд. Дистанц.<br>
+                    Звенигородський О.С.
+                </td>
+                <td class="day-cell">
+                    11:45 388Б-2017 (ЛК)<br>
+                    ауд. Дистанц.<br>
+                    Чачков О.Є.<br><br>
+                    15:15 ШІ-2017 (ПЗ)<br>
+                    ауд. Дистанц.<br>
+                    Кись Т.М.
+                </td>
+                <td class="day-cell">
+                    9:45 ВЕБ тех.-2016 (ЛК)<br>
+                    ауд. Дистанц.<br>
+                    Ароне А.О.
+                </td>
+                <td class="day-cell">
+                    17:00 ДТМІ-2018 (ЛБ)<br>
+                    ауд. Дистанц.<br>
+                    Асєєва Л.А.
+                </td>
+                <td class="day-cell empty"></td>
+                <td class="day-cell">
+                    9:45 МЗШ-2020 (ЛК)<br>
+                    ауд. Дистанц.<br>
+                    Звенигородський О.С.
+                </td>
+                <td class="day-cell empty"></td>
+            </tr>
+            <!-- Тиждень 5 (з 25 по 30 листопада) -->
+            <tr>
+                <td class="day-cell">
+                    9:45 МЗШ-2020 (ЛК)<br>
+                    ауд. Дистанц.<br>
+                    Звенигородський О.С.
+                </td>
+                <td class="day-cell">
+                    11:45 ВЕБ тех.-2016 (ЛК)<br>
+                    ауд. Дистанц.<br>
+                    Ароне А.О.
+                </td>
+                <td class="day-cell">
+                    13:30 ПРО-2017 (ПЗ)<br>
+                    ауд. Дистанц.<br>
+                    Торошанко Я.І.
+                </td>
+                <td class="day-cell">
+                    17:00 ДТМІ-2018 (ЛБ)<br>
+                    ауд. Дистанц.<br>
+                    Асєєва Л.А.
+                </td>
+                <td class="day-cell empty"></td>
+                <td class="day-cell empty"></td>
+                <td class="day-cell empty"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
 
