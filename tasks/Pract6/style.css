@@ -18,7 +18,7 @@ body {
     left: 0;
     width: 200%;
     height: 100%;
-    background: url('https://cojo.ru/wp-content/uploads/2022/12/fon-dlia-unity-2d-8.webp') no-repeat center center;
+    background: url('https://img.wallscloud.net/uploads/thumb/954962676/8bit-8bit-grafika-les-retro-fon-pikseli-pxl-1024x576-MM-80.webp') no-repeat center center;
     background-size: cover;
     animation: moveBackground 8s infinite linear;
 }
@@ -29,7 +29,7 @@ body {
     left: -150px;
     width: 300px;
     height: 1020px;
-    background: url('[URL="https://pokemondb.net/pokedex/charizard"][IMG]https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif[/IMG][/URL]') no-repeat center;
+    background: url('<a href="https://pokemondb.net/pokedex/charizard"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif" alt="Charizard"></a>') no-repeat center;
     background-size: contain;
     animation: movePokemon 9s infinite linear;
 }
