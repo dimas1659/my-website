@@ -1,216 +1,163 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Розклад на листопад 2024</title>
+    <title>ПР1_Розклад</title>
     <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            overflow: hidden;
+            border-radius: 10px;
         }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 15px 0;
+            color: #333;
+        }
+
         th, td {
-            border: 1px solid black;
-            text-align: left;
-            vertical-align: top;
-            padding: 5px;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
         }
+
         th {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 1.1em;
+        }
+
+        thead th {
+            background-color: #3e8e41;
+        }
+
+        tbody tr:nth-child(even) {
             background-color: #f2f2f2;
         }
-        .day-cell {
-            height: 150px;
+
+        tbody tr:hover {
+            background-color: #f1f9f3;
         }
-        .empty {
+
+        th[scope="row"] {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+
+        td {
+            color: #555;
+        }
+
+        td.empty {
             background-color: #f9f9f9;
         }
-        .date {
-            font-weight: bold;
-            margin-bottom: 5px;
+
+        @media screen and (max-width: 768px) {
+            table {
+                font-size: 0.9em;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+
+            caption {
+                font-size: 1.2em;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Розклад на листопад 2024</h1>
     <table>
+        <caption>Розклад КІД-41, КІД-42</caption>
         <thead>
             <tr>
-                <th>ПН</th>
-                <th>ВТ</th>
-                <th>СР</th>
-                <th>ЧТ</th>
-                <th>ПТ</th>
-                <th>СБ</th>
-                <th>НД</th>
+                <th scope="col">Понеділок</th>
+                <th scope="col">18.11.2024</th>
+                <th scope="col">25.11.2024</th>
+                <th scope="col">02.12.2024</th>
+                <th scope="col">09.12.2024</th>
             </tr>
         </thead>
         <tbody>
-            <!-- Тиждень 1 -->
             <tr>
+                <th scope="row">1 пара<br>08:00-09:35</th>
                 <td class="empty"></td>
                 <td class="empty"></td>
-                <td class="empty"></td>
-                <td class="empty"></td>
-                <td class="empty"></td>
-                <td class="empty"></td>
+                <td>Web-тех.(Лк)<br>ауд.Дистанц.<br>Аронов А.О.</td>
                 <td class="empty"></td>
             </tr>
-            <!-- Тиждень 2 -->
             <tr>
-                <td class="day-cell">
-                    <span class="date">4 листопада</span><br>
-                    9:45 МЗШ-2020 (ЛК)<br>
-                    ауд. Дистанц.<br>
-                    Звенигородський О.С.<br><br>
-                    13:30 ПРО-2017 (ПЗ)<br>
-                    ауд. Дистанц.<br>
-                    Торошанко Я.І.
-                </td>
-                <td class="day-cell">
-                    <span class="date">5 листопада</span><br>
-                    11:45 388Б-2017 (ЛК)<br>
-                    ауд. Дистанц.<br>
-                    Чачков О.Є.
-                </td>
-                <td class="day-cell">
-                    <span class="date">6 листопада</span><br>
-                    9:45 ШІ-2017 (ЛК)<br>
-                    ауд. Дистанц.<br>
-                    Кись Т.М.
-                </td>
-                <td class="day-cell">
-                    <span class="date">7 листопада</span><br>
-                    17:00 ДТМІ-2018 (ЛБ)<br>
-                    ауд. Дистанц.<br>
-                    Асєєва Л.А.
-                </td>
-                <td class="day-cell">
-                    <span class="date">8 листопада</span>
-                </td>
-                <td class="day-cell">
-                    <span class="date">9 листопада</span>
-                </td>
-                <td class="day-cell">
-                    <span class="date">10 листопада</span>
-                </td>
+                <th scope="row">2 пара<br>09:45-11:20</th>
+                <td>МЗШІ(Лк)<br>ауд.Дистанц.<br>Звенигородський О.С.</td>
+                <td>МЗШІ(Лк)<br>ауд.Дистанц.<br>Звенигородський О.С.</td>
+                <td>МЗШІ(Лк)<br>ауд.Дистанц.<br>Звенигородський О.С.</td>
+                <td class="empty"></td>
             </tr>
-            <!-- Тиждень 3 -->
             <tr>
-                <td class="day-cell">
-                    <span class="date">11 листопада</span><br>
-                    9:45 МЗШ-2020 (ЛК)<br>
-                    ауд. Дистанц.<br>
-                    Звенигородський О.С.<br><br>
-                    13:30 ПРО-2017 (ПЗ)<br>
-                    ауд. Дистанц.<br>
-                    Торошанко Я.І.
-                </td>
-                <td class="day-cell">
-                    <span class="date">12 листопада</span><br>
-                    11:45 ВЕБ тех.-2016 (ЛК)<br>
-                    ауд. Дистанц.<br>
-                    Ароне А.О.
-                </td>
-                <td class="day-cell">
-                    <span class="date">13 листопада</span><br>
-                    15:15 ШІ-2017 (ПЗ)<br>
-                    ауд. Дистанц.<br>
-                    Кись Т.М.
-                </td>
-                <td class="day-cell">
-                    <span class="date">14 листопада</span><br>
-                    18:45 ДТМІ-2018 (ПЗ)<br>
-                    ауд. Дистанц.<br>
-                    Асєєва Л.А.
-                </td>
-                <td class="day-cell">
-                    <span class="date">15 листопада</span>
-                </td>
-                <td class="day-cell">
-                    <span class="date">16 листопада</span>
-                </td>
-                <td class="day-cell">
-                    <span class="date">17 листопада</span>
-                </td>
+                <th scope="row">3 пара<br>11:45-13:20</th>
+                <td>ПРО(Лк)<br>ауд.Дистанц.<br>Торошанко Я.І.</td>
+                <td>ПРО(Лк)<br>ауд.Дистанц.<br>Торошанко Я.І.</td>
+                <td>ПРО(Лк)<br>ауд.Дистанц.<br>Торошанко Я.І.</td>
+                <td>ПРО(Лк)<br>ауд.Дистанц.<br>Торошанко Я.І.</td>
             </tr>
-            <!-- Тиждень 4 -->
             <tr>
-                <td class="day-cell">
-                    <span class="date">18 листопада</span><br>
-                    9:45 МЗШ-2020 (ЛК)<br>
-                    ауд. Дистанц.<br>
-                    Звенигородський О.С.
-                </td>
-                <td class="day-cell">
-                    <span class="date">19 листопада</span><br>
-                    11:45 388Б-2017 (ЛК)<br>
-                    ауд. Дистанц.<br>
-                    Чачков О.Є.<br><br>
-                    15:15 ШІ-2017 (ПЗ)<br>
-                    ауд. Дистанц.<br>
-                    Кись Т.М.
-                </td>
-                <td class="day-cell">
-                    <span class="date">20 листопада</span><br>
-                    9:45 ВЕБ тех.-2016 (ЛК)<br>
-                    ауд. Дистанц.<br>
-                    Ароне А.О.
-                </td>
-                <td class="day-cell">
-                    <span class="date">21 листопада</span><br>
-                    17:00 ДТМІ-2018 (ЛБ)<br>
-                    ауд. Дистанц.<br>
-                    Асєєва Л.А.
-                </td>
-                <td class="day-cell">
-                    <span class="date">22 листопада</span>
-                </td>
-                <td class="day-cell">
-                    <span class="date">23 листопада</span><br>
-                    9:45 МЗШ-2020 (ЛК)<br>
-                    ауд. Дистанц.<br>
-                    Звенигородський О.С.
-                </td>
-                <td class="day-cell">
-                    <span class="date">24 листопада</span>
-                </td>
+                <th scope="row">4 пара<br>13:30-15:05</th>
+                <td>ШІ(Лк)<br>ауд.Дистанц.<br>Кисіль Т.М.</td>
+                <td>Web-тех.(Лк)<br>ауд.Дистанц.<br>Аронов А.О.</td>
+                <td class="empty"></td>
+                <td>Web-тех.(Лк)<br>ауд.Дистанц.<br>Аронов А.О.</td>
             </tr>
-            <!-- Тиждень 5 -->
             <tr>
-                <td class="day-cell">
-                    <span class="date">25 листопада</span><br>
-                    9:45 МЗШ-2020 (ЛК)<br>
-                    ауд. Дистанц.<br>
-                    Звенигородський О.С.
-                </td>
-                <td class="day-cell">
-                    <span class="date">26 листопада</span><br>
-                    11:45 ВЕБ тех.-2016 (ЛК)<br>
-                    ауд. Дистанц.<br>
-                    Ароне А.О.
-                </td>
-                <td class="day-cell">
-                    <span class="date">27 листопада</span><br>
-                    13:30 ПРО-2017 (ПЗ)<br>
-                    ауд. Дистанц.<br>
-                    Торошанко Я.І.
-                </td>
-                <td class="day-cell">
-                    <span class="date">28 листопада</span><br>
-                    17:00 ДТМІ-2018 (ЛБ)<br>
-                    ауд. Дистанц.<br>
-                    Асєєва Л.А.
-                </td>
-                <td class="day-cell">
-                    <span class="date">29 листопада</span>
-                </td>
-                <td class="day-cell">
-                    <span class="date">30 листопада</span>
-                </td>
-                <td class="day-cell empty"></td>
+                <th scope="row">5 пара<br>15:15-16:50</th>
+                <td class="empty"></td>
+                <td>ШІ(Лк)<br>ауд.Дистанц.<br>Кисіль Т.М.</td>
+                <td class="empty"></td>
+                <td>ШІ(Лк)<br>ауд.Дистанц.<br>Кисіль Т.М.</td>
             </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <th scope="col">Вівторок</th>
+                <th scope="col">19.11.2024</th>
+                <th scope="col">26.11.2024</th>
+                <th scope="col">03.12.2024</th>
+                <th scope="col">10.12.2024</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">2 пара<br>09:45-11:20</th>
+                <td class="empty"></td>
+                <td>ПРО(Лб)<br>ауд.Дистанц.<br>Торошанко Я.І.</td>
+                <td class="empty"></td>
+                <td>ПРО(Лб)<br>ауд.Дистанц.<br>Торошанко Я.І.</td>
+            </tr>
+            <tr>
+                <th scope="row">3 пара<br>11:45-13:20</th>
+                <td>ЗВВБ(Лк)<br>ауд.Дистанц.<br>Чатченко О.Є.</td>
+                <td>ХТ(Пз)<br>ауд.Дистанц.<br>Шикула О.М.</td>
+                <td>ЗВВБ(Лк)<br>ауд.Дистанц.<br>Чатченко О.Є.</td>
+                <td>ХТ(Пз)<br>ауд.Дистанц.<br>Шикула О.М.</td>
+            </tr>
+            <!-- Продовження для інших днів -->
         </tbody>
     </table>
 </body>
 </html>
-
